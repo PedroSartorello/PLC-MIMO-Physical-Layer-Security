@@ -23,13 +23,6 @@ The scenario follows the **Csiszár-Körner wiretap channel** framework. Alice (
 - **Alice** transmits using the **Delta (Δ) mode**: Port 1 = Phase-Neutral pair (PN), Port 2 = Phase-Earth pair (PE)
 - **Bob and Eve** receive using the **Star (Y) mode**: Port 1 = Phase-reference, Port 2 = Neutral-reference
 - The three conductors (Phase, Neutral, Earth) create independent propagation paths, enabling spatial multiplexing via MIMO
-
-The channel matrix for subcarrier $k$ and receiver $l \in \{b, e\}$ is:
-
-$$\mathbf{H}_k^{(l)} \in \mathbb{C}^{N_r \times N_t}$$
-
-Off-diagonal elements represent **electromagnetic coupling** between conductors — an inherent feature of unshielded power cables.
-
 ---
 
 ## Configurations Evaluated
